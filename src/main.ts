@@ -1,9 +1,5 @@
-import { createApp } from "vue";
-import App from "./App.vue";
-import router from "./router";
-import store from "./store";
+import router from './router';
+import store from './store';
+import { initVue } from './commonMain';
 
-createApp(App)
-  .use(store)
-  .use(router)
-  .mount("#app");
+initVue(router, store);
