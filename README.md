@@ -1,4 +1,9 @@
 # vue3-cli-starter
+- vue 3
+- vue router
+- vue store
+- Stylus
+- Tailwindcss + Purge
 
 ## Project setup
 ```
