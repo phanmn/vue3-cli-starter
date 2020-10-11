@@ -5,7 +5,6 @@ import i18n from './i18n';
 import AppVue from './App.vue';
 import { Store } from 'vuex';
 import './styles/tailwind.css';
-import './styles/style.styl';
 
 function importDirectives(app: App) {
   const pagesRoutes = require.context('./directives', true, /\.ts$/);
